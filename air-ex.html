@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        img{
+            width: 200px;
+            height: auto;
+            position: relative;
+            margin-top: 370px;
+            animation: air 6s linear  infinite;
+        }
+        @keyframes air{
+            0%{
+                left: 0px;
+            }
+            20%{
+                left: 15%;
+                transform:translateY(0);
+
+            }
+            45%{
+                transform:translateY(-70px);
+            }
+            65%{
+                transform:translateY(-150px);   
+            }
+            100%{
+                left: 90%;
+                transform:translateY(-510px);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Indian Air</h1>
+    <p><b>Note:</b>images Name: air1.png</p>
+    <img src="air1.png" alt="">
+</body>
+</html>

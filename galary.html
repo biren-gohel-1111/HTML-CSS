@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Gallary</title>
+    <style>
+        div{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-wrap: wrap;
+
+
+        }
+        div img{
+            width: 400px;
+            height: 250px;
+            border: 2px solid grey;
+            margin: 5px;
+            border-radius: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        div img:hover{
+            filter:brightness(3);
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Hover Galary Images Example...</h1>
+    <p><b>Note:</b>Add Images</p>
+    <div class="container">
+        <img class="img-1" src="home.jpg" alt="">
+        <img class="img-2" src="home.jpg" alt="">
+        <img class="img-3" src="home.jpg" alt="">
+        <img class="img-4" src="home.jpg" alt="">
+        <img class="img-5" src="home.jpg" alt="">
+        <img class="img-6" src="home.jpg" alt="">
+    </div>
+</body>
+</html>
